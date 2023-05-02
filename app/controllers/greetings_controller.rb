@@ -13,6 +13,7 @@ class GreetingsController < ApplicationController
 
   # GET /greetings/1
   def show
+    @greeting = @greeting.greeting
     render json: @greeting
   end
 
