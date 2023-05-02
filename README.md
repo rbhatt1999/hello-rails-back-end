@@ -1,24 +1,146 @@
-# README
+<a name="readme-top"></a>
+<div align="center">
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+  <img src="https://github.com/rbhatt1999/rbhatt1999/blob/bd8bb27a9814ab74d6f920a1027494a65610a24d/logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-Things you may want to cover:
+  <h3><b>Hello Rails Back End</b></h3>
+</div>
+<a name="readme-top"></a>
 
-* Ruby version
+<!-- TABLE OF CONTENTS -->
 
-* System dependencies
+# 📗 Table of Contents
 
-* Configuration
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Hello Rails Back End ](#-hello-rails-back-end-)
+  - [🛠 Built With ](#-built-with-)
+  - [🛠 Tech Stack ](#-tech-stack-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+  - [👥 Authors](#-authors)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
-* Database creation
+<!-- PROJECT DESCRIPTION -->
 
-* Database initialization
+# 📖 Hello Rails Back End <a name="about-project"></a>
 
-* How to run the test suite
+Hello Rails Back End is an tutorial for rails backend api setup project.
 
-* Services (job queues, cache servers, search engines, etc.)
+## 🛠 Built With <a name="built-with"></a>
+This app is build with Ruby on Rails and Postgresql.
+### Tech Stack <a name="tech-stack"></a>
+> <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+> <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
+> <li><a href="https://www.postgresql.org/">Postgresql</a></li>
 
-* Deployment instructions
+### Key Features <a name="key-features"></a>
 
-* ...
+> - User can create a See a random Greeting
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+## To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+- Mac or PC
+- Install Ruby
+- Install Rails
+- Install Postgresql
+- Understanding of Ruby
+
+### Setup
+
+- Clone this repository to your desired folder:
+
+```sh
+ git clone https://github.com/rbhatt1999/hello-rails-back-end.git
+```
+
+- Navigate into the cloned folder
+
+```sh
+ cd hello-rails-back-end
+
+```
+### Install
+
+- Install this project with:
+
+```sh
+ bundle install
+```
+
+- Set up the database
+  Change the username and password of your postgres account in `config/database.yml`
+
+```sh
+ rails db:create db:migrate db:seed
+```
+
+- Start the server
+
+```sh
+ rails s
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors<a name="authors"></a>
+
+👤 **Rohit Bhatt**
+
+- GitHub: [@rbhatt1999](https://github.com/rbhatt1999)
+- Twitter: [@RohitBhatt](https://twitter.com/Rohit_Bhatt_)
+- LinkedIn: [Rohit Bhatt](https://www.linkedin.com/in/rohitbhatt-dev/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/rbhatt1999/hello-rails-back-end/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project, please leave a ⭐️
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+- I would like to thank Microverse for providing us with reading materials that aided us to during the project development
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
