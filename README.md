@@ -14,7 +14,7 @@
 
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 Hello Rails Back End ](#-hello-rails-back-end-)
-  - [Front-End](#-front-end-)
+  - [Front-End](#front-end)
   - [🛠 Built With ](#-built-with-)
   - [🛠 Tech Stack ](#-tech-stack-)
     - [Key Features ](#key-features-)
